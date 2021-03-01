@@ -7,34 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F92AF0625ED924400803FA1 /* AppDojoTask1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F92AEF325ED924200803FA1 /* AppDojoTask1App.swift */; };
-		9F92AF0725ED924400803FA1 /* AppDojoTask1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F92AEF325ED924200803FA1 /* AppDojoTask1App.swift */; };
-		9F92AF0825ED924400803FA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F92AEF425ED924200803FA1 /* ContentView.swift */; };
-		9F92AF0925ED924400803FA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F92AEF425ED924200803FA1 /* ContentView.swift */; };
-		9F92AF0A25ED924400803FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F92AEF525ED924400803FA1 /* Assets.xcassets */; };
-		9F92AF0B25ED924400803FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F92AEF525ED924400803FA1 /* Assets.xcassets */; };
+		9F92AF2325ED975300803FA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F92AF2225ED975300803FA1 /* AppDelegate.swift */; };
+		9F92AF2525ED975300803FA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F92AF2425ED975300803FA1 /* SceneDelegate.swift */; };
+		9F92AF2725ED975300803FA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F92AF2625ED975300803FA1 /* ViewController.swift */; };
+		9F92AF2A25ED975300803FA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F92AF2825ED975300803FA1 /* Main.storyboard */; };
+		9F92AF2C25ED975600803FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F92AF2B25ED975600803FA1 /* Assets.xcassets */; };
+		9F92AF2F25ED975600803FA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F92AF2D25ED975600803FA1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9F92AEF325ED924200803FA1 /* AppDojoTask1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDojoTask1App.swift; sourceTree = "<group>"; };
-		9F92AEF425ED924200803FA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9F92AEF525ED924400803FA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9F92AEFA25ED924400803FA1 /* AppDojoTask1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDojoTask1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F92AEFD25ED924400803FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F92AF0225ED924400803FA1 /* AppDojoTask1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDojoTask1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F92AF0425ED924400803FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F92AF0525ED924400803FA1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		9F92AF1F25ED975300803FA1 /* AppDojoTask1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDojoTask1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F92AF2225ED975300803FA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F92AF2425ED975300803FA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9F92AF2625ED975300803FA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F92AF2925ED975300803FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F92AF2B25ED975600803FA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F92AF2E25ED975600803FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F92AF3025ED975600803FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9F92AEF725ED924400803FA1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F92AEFF25ED924400803FA1 /* Frameworks */ = {
+		9F92AF1C25ED975300803FA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,107 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9F92AEED25ED924200803FA1 = {
+		9F92AF1625ED975300803FA1 = {
 			isa = PBXGroup;
 			children = (
-				9F92AEF225ED924200803FA1 /* Shared */,
-				9F92AEFC25ED924400803FA1 /* iOS */,
-				9F92AF0325ED924400803FA1 /* macOS */,
-				9F92AEFB25ED924400803FA1 /* Products */,
+				9F92AF2125ED975300803FA1 /* AppDojoTask1 */,
+				9F92AF2025ED975300803FA1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9F92AEF225ED924200803FA1 /* Shared */ = {
+		9F92AF2025ED975300803FA1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F92AEF325ED924200803FA1 /* AppDojoTask1App.swift */,
-				9F92AEF425ED924200803FA1 /* ContentView.swift */,
-				9F92AEF525ED924400803FA1 /* Assets.xcassets */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		9F92AEFB25ED924400803FA1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9F92AEFA25ED924400803FA1 /* AppDojoTask1.app */,
-				9F92AF0225ED924400803FA1 /* AppDojoTask1.app */,
+				9F92AF1F25ED975300803FA1 /* AppDojoTask1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9F92AEFC25ED924400803FA1 /* iOS */ = {
+		9F92AF2125ED975300803FA1 /* AppDojoTask1 */ = {
 			isa = PBXGroup;
 			children = (
-				9F92AEFD25ED924400803FA1 /* Info.plist */,
+				9F92AF2225ED975300803FA1 /* AppDelegate.swift */,
+				9F92AF2425ED975300803FA1 /* SceneDelegate.swift */,
+				9F92AF2625ED975300803FA1 /* ViewController.swift */,
+				9F92AF2825ED975300803FA1 /* Main.storyboard */,
+				9F92AF2B25ED975600803FA1 /* Assets.xcassets */,
+				9F92AF2D25ED975600803FA1 /* LaunchScreen.storyboard */,
+				9F92AF3025ED975600803FA1 /* Info.plist */,
 			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		9F92AF0325ED924400803FA1 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				9F92AF0425ED924400803FA1 /* Info.plist */,
-				9F92AF0525ED924400803FA1 /* macOS.entitlements */,
-			);
-			path = macOS;
+			path = AppDojoTask1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9F92AEF925ED924400803FA1 /* AppDojoTask1 (iOS) */ = {
+		9F92AF1E25ED975300803FA1 /* AppDojoTask1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F92AF0E25ED924400803FA1 /* Build configuration list for PBXNativeTarget "AppDojoTask1 (iOS)" */;
+			buildConfigurationList = 9F92AF3325ED975600803FA1 /* Build configuration list for PBXNativeTarget "AppDojoTask1" */;
 			buildPhases = (
-				9F92AEF625ED924400803FA1 /* Sources */,
-				9F92AEF725ED924400803FA1 /* Frameworks */,
-				9F92AEF825ED924400803FA1 /* Resources */,
+				9F92AF1B25ED975300803FA1 /* Sources */,
+				9F92AF1C25ED975300803FA1 /* Frameworks */,
+				9F92AF1D25ED975300803FA1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "AppDojoTask1 (iOS)";
-			productName = "AppDojoTask1 (iOS)";
-			productReference = 9F92AEFA25ED924400803FA1 /* AppDojoTask1.app */;
-			productType = "com.apple.product-type.application";
-		};
-		9F92AF0125ED924400803FA1 /* AppDojoTask1 (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9F92AF1125ED924400803FA1 /* Build configuration list for PBXNativeTarget "AppDojoTask1 (macOS)" */;
-			buildPhases = (
-				9F92AEFE25ED924400803FA1 /* Sources */,
-				9F92AEFF25ED924400803FA1 /* Frameworks */,
-				9F92AF0025ED924400803FA1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "AppDojoTask1 (macOS)";
-			productName = "AppDojoTask1 (macOS)";
-			productReference = 9F92AF0225ED924400803FA1 /* AppDojoTask1.app */;
+			name = AppDojoTask1;
+			productName = AppDojoTask1;
+			productReference = 9F92AF1F25ED975300803FA1 /* AppDojoTask1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9F92AEEE25ED924200803FA1 /* Project object */ = {
+		9F92AF1725ED975300803FA1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					9F92AEF925ED924400803FA1 = {
-						CreatedOnToolsVersion = 12.2;
-					};
-					9F92AF0125ED924400803FA1 = {
+					9F92AF1E25ED975300803FA1 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
-			buildConfigurationList = 9F92AEF125ED924200803FA1 /* Build configuration list for PBXProject "AppDojoTask1" */;
+			buildConfigurationList = 9F92AF1A25ED975300803FA1 /* Build configuration list for PBXProject "AppDojoTask1" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -152,59 +109,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 9F92AEED25ED924200803FA1;
-			productRefGroup = 9F92AEFB25ED924400803FA1 /* Products */;
+			mainGroup = 9F92AF1625ED975300803FA1;
+			productRefGroup = 9F92AF2025ED975300803FA1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F92AEF925ED924400803FA1 /* AppDojoTask1 (iOS) */,
-				9F92AF0125ED924400803FA1 /* AppDojoTask1 (macOS) */,
+				9F92AF1E25ED975300803FA1 /* AppDojoTask1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9F92AEF825ED924400803FA1 /* Resources */ = {
+		9F92AF1D25ED975300803FA1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F92AF0A25ED924400803FA1 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F92AF0025ED924400803FA1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F92AF0B25ED924400803FA1 /* Assets.xcassets in Resources */,
+				9F92AF2F25ED975600803FA1 /* LaunchScreen.storyboard in Resources */,
+				9F92AF2C25ED975600803FA1 /* Assets.xcassets in Resources */,
+				9F92AF2A25ED975300803FA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9F92AEF625ED924400803FA1 /* Sources */ = {
+		9F92AF1B25ED975300803FA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F92AF0825ED924400803FA1 /* ContentView.swift in Sources */,
-				9F92AF0625ED924400803FA1 /* AppDojoTask1App.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F92AEFE25ED924400803FA1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F92AF0925ED924400803FA1 /* ContentView.swift in Sources */,
-				9F92AF0725ED924400803FA1 /* AppDojoTask1App.swift in Sources */,
+				9F92AF2725ED975300803FA1 /* ViewController.swift in Sources */,
+				9F92AF2325ED975300803FA1 /* AppDelegate.swift in Sources */,
+				9F92AF2525ED975300803FA1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		9F92AF2825ED975300803FA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F92AF2925ED975300803FA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F92AF2D25ED975600803FA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F92AF2E25ED975600803FA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		9F92AF0C25ED924400803FA1 /* Debug */ = {
+		9F92AF3125ED975600803FA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,15 +216,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		9F92AF0D25ED924400803FA1 /* Release */ = {
+		9F92AF3225ED975600803FA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,137 +271,76 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-			};
-			name = Release;
-		};
-		9F92AF0F25ED924400803FA1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 44SQBVTPVY;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.naorandd.AppDojoTask1;
-				PRODUCT_NAME = AppDojoTask1;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9F92AF1025ED924400803FA1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 44SQBVTPVY;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.naorandd.AppDojoTask1;
-				PRODUCT_NAME = AppDojoTask1;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		9F92AF1225ED924400803FA1 /* Debug */ = {
+		9F92AF3425ED975600803FA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 44SQBVTPVY;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_FILE = AppDojoTask1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.naorandd.AppDojoTask1;
-				PRODUCT_NAME = AppDojoTask1;
-				SDKROOT = macosx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9F92AF1325ED924400803FA1 /* Release */ = {
+		9F92AF3525ED975600803FA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 44SQBVTPVY;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_FILE = AppDojoTask1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.naorandd.AppDojoTask1;
-				PRODUCT_NAME = AppDojoTask1;
-				SDKROOT = macosx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9F92AEF125ED924200803FA1 /* Build configuration list for PBXProject "AppDojoTask1" */ = {
+		9F92AF1A25ED975300803FA1 /* Build configuration list for PBXProject "AppDojoTask1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F92AF0C25ED924400803FA1 /* Debug */,
-				9F92AF0D25ED924400803FA1 /* Release */,
+				9F92AF3125ED975600803FA1 /* Debug */,
+				9F92AF3225ED975600803FA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F92AF0E25ED924400803FA1 /* Build configuration list for PBXNativeTarget "AppDojoTask1 (iOS)" */ = {
+		9F92AF3325ED975600803FA1 /* Build configuration list for PBXNativeTarget "AppDojoTask1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F92AF0F25ED924400803FA1 /* Debug */,
-				9F92AF1025ED924400803FA1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9F92AF1125ED924400803FA1 /* Build configuration list for PBXNativeTarget "AppDojoTask1 (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9F92AF1225ED924400803FA1 /* Debug */,
-				9F92AF1325ED924400803FA1 /* Release */,
+				9F92AF3425ED975600803FA1 /* Debug */,
+				9F92AF3525ED975600803FA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9F92AEEE25ED924200803FA1 /* Project object */;
+	rootObject = 9F92AF1725ED975300803FA1 /* Project object */;
 }
